@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: dark; }
+/* App theme */
+:root { color-scheme: dark; -webkit-tap-highlight-color: transparent; }
 body { @apply bg-black; }
+
+/* Prevent iOS zoom-on-focus */
+input, select, textarea, button { font-size: 16px; }

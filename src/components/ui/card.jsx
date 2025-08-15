@@ -1,8 +1,8 @@
 import React from 'react'
 import clsx from 'clsx'
 
-export const Card = ({ className, ...props }) => (
-  <div className={clsx('rounded-2xl border bg-white/80 text-black shadow', className)} {...props} />
+export const Card = ({ className, style, ...props }) => (
+  <div className={clsx('rounded-2xl border bg-white/80 text-black shadow', className)} style={style} {...props} />
 )
 
 export const CardHeader = ({ className, ...props }) => (
